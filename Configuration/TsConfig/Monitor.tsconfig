@@ -1,0 +1,29 @@
+#########################################################
+#### BACKENDLAYOUT: Monitor #########################
+#########################################################
+mod {
+    web_layout {
+        BackendLayouts {
+            MonitorLayout {
+                title = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:MonitorLayout
+                icon = EXT:hda/Resources/Public/Icons/BackendLayouts/Monitor.svg
+                 config {
+                    backend_layout {
+                        colCount = 1
+                        rowCount = 1
+                        rows {
+                            1 {
+								columns {
+                                    1 {
+                                        name = LLL:EXT:t3up/Resources/Private/Language/locallang_backend.xlf:colpos0
+                                        colPos = 0
+                                    }
+                                } 
+                            } 
+                        }
+                    }
+                } // config
+            } 
+        } // BackendLayouts
+    } //web_layout
+} //mod

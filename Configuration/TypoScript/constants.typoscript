@@ -1,0 +1,63 @@
+
+##############
+### PAGE ###
+##############
+
+
+
+page {
+
+    fonts{
+        font                          = Open Sans       
+    }
+    	
+    footer{  
+        copyright                   = h_da.de
+        # cat = t3up: footer/bg2//; type = int; label = PID with Alumni 
+        alumni                      =
+        # cat = t3up: footer///; type = int; label = PID with the textmedia-element, should be in the folder with footer etc.        
+        monitoraddress              = 
+    }
+       
+    icons {
+        # cat = hda: icons//;  type = int+; label = LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:iconwidth
+        width                        = 100
+        # cat = hda: icons//;  type = string; label = LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:iconfolder
+        folder                       = 1:System/Icons/
+        # cat = hda: icons//;  type = options[,active]; label =  LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:iconsfooter
+        footer                       = 1
+        # cat = hda: icons//;  type = string; label =  LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:template
+        template                     = EXT:hda/Resources/Private/Templates/Fluidtemplates/Partials/Icons.html
+    }
+           
+    scss {     
+        # cat =t3up: scss/extensions/113;  type =options[,active]; label = LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:scsshda
+        hda                        = active 
+     }   
+    top {
+        # customsubcategory=hda=LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:hdas  
+        # cat = t3up: header/hda/01; type = int+;  label =  LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:sd
+        sd =	lib.header.sd
+	}	
+	
+}
+
+
+plugin.tx_powermail.settings.styles.bootstrap.important = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

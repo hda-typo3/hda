@@ -1,0 +1,18 @@
+lib.header.sd = TEXT
+lib.header.sd {
+	if.isPositive                  = {$page.header.sd}
+    value (
+            <span class="ps-2 small funcItemTitle lang_en">Service desk</span>
+            <span class="ps-2 small funcItemTitle lang_de">Service Desk</span>
+            <span class="ps-2 small funcItemTitle lang_fr">Service desk</span>
+            <span class="ps-2 small funcItemTitle lang_it">Service desk</span>  
+            <span class="ps-2 small funcItemTitle lang_es">Service desk</span>  
+            <span class="ps-2 small funcItemTitle lang_pl">Service desk</span>     
+    )
+    typolink {
+        parameter                  = {$page.header.sd}
+        title                      = service desk 
+        ATagParams                 = class="extras sd navitem d-block" data-show-sub="false" title="Service Desk" aria-label="link servicedesk"
+   }
+    wrap = <li>|</li> 
+}

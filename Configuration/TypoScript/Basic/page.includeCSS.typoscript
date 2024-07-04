@@ -1,0 +1,9 @@
+## Die CSS-Variablen ############################################################################
+
+plugin.tx_wsscss.variables {
+    topBorderHeight                     = {$page.color.topBorderHeight}px
+    footer2BgColor                      = {$page.color.footer2BgColor}
+    footer2liBgColor                    = {$page.color.footer2liBgColor}
+}
+
+

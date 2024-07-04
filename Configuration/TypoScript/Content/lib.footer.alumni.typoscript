@@ -1,0 +1,13 @@
+#######################################
+#### Alumni ########################
+#######################################
+
+lib.footer.alumni 						= COA
+lib.footer.alumni.if.isTrue        	    = {$page.footer.alumni}
+lib.footer.alumni.10 = IMAGE
+lib.footer.alumni.10 {
+    file 								= typo3conf/ext/hda/Resources/Public/Design/alumni.svg
+    params 								= type="alumni" class="alumni" alt="Link Alumni Website"
+}
+
+lib.footer.alumni.wrap 					= <li><a href="index.php?id={$page.footer.alumni}" title="link Alumni-webpage" class="alumni d-none d-lg-inline-block">|</a></li>

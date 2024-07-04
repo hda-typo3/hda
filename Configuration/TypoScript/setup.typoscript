@@ -1,0 +1,23 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:hda/Configuration/TypoScript/Basic/" extensions="typoscript">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:hda/Configuration/TypoScript/Header/" extensions="typoscript">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:hda/Configuration/TypoScript/Content/" extensions="typoscript">
+
+page{
+	## Fluidtemplates ##
+	10.layoutRootPaths.20 							= EXT:hda/Resources/Private/Templates/Fluidtemplates/Layouts/	
+	10.templateRootPaths.20 						= EXT:hda/Resources/Private/Templates/Fluidtemplates/Templates/
+	10.partialRootPaths.20 							= EXT:hda/Resources/Private/Templates/Fluidtemplates/Partials/
+	
+	## Scss ##
+	includeCSS{
+		hdanavigation								 = EXT:hda/Resources/Public/Sass/_hda.scss
+		hdanavigation.if.isTrue						 = {$page.scss.hda}	
+	}
+}				
+
+plugin.tx_news{
+	view{
+		partialRootPaths.20 		 = EXT:hda/Resources/Private/Templates/News/Partials/
+		templateRootPaths.20 		 = EXT:hda/Resources/Private/Templates/News/Templates/
+	}
+}

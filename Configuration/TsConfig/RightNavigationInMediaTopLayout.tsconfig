@@ -1,0 +1,53 @@
+###############################################################
+#### BACKENDLAYOUT: Right navigation (top) and Media ##########
+###############################################################
+mod {
+    web_layout {
+        BackendLayouts {
+            RightNavigationInMediaTopLayout {
+                title = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:RightNavigationInMediaTopLayout
+                icon = EXT:hda/Resources/Public/Icons/BackendLayouts/RightNavigationInMediaTopLayout.svg
+                  config {
+                      backend_layout {
+                        colCount = 3
+                        rowCount = 2
+                        rows {
+                            1 {
+                                columns {
+                                    1 {
+                                        name = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:colpos3
+                                        colspan = 2
+                                        colPos = 3
+                                        allowed.CType = list,t3upheaderimage_content,carousel,youtubevideo_pi1,slideshow
+                                    }
+                                    3 {
+                                        name = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:colpos2
+                                        colPos = 2
+                                        colspan = 1
+                                        rowspan = 2
+                                        disallowed.CType (
+                                            t3upheaderimage_content
+                                         )
+                                    }
+                                    
+                                }
+                            }
+                            2 {
+                                columns {
+                                    1 {
+                                        name = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:colpos0
+                                        colspan = 2
+                                        colPos = 0
+                                        disallowed.CType (
+                                            t3upheaderimage_content
+                                         )
+                                    }
+                                }
+                            }  
+                        }
+                    } // backend_layout
+                 } // config
+              }
+        } // BackendLayouts
+    } //web_layout
+} //mod

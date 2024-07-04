@@ -1,0 +1,28 @@
+
+lib.iconwidth = TEXT
+lib.iconwidth.value = {$page.icons.width}
+    
+lib.icons = FLUIDTEMPLATE
+lib.icons {
+    file = {$page.icons.template}
+    dataProcessing.10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+    dataProcessing.10 {
+        folders = {$page.icons.folder}
+        folders.recursive = 1
+        sorting = title
+        sorting.direction = ascending
+        as = files
+    }
+    variables {
+        iconwidth < lib.iconwidth
+    }
+}
+
+
+lib.footer {
+    10.20 = COA
+    10.20.if.isTrue = {$page.icons.footer}
+    10.20.10 < lib.icons
+}
+
+lib.footer.10.30.10.60 < lib.footer.alumni  

@@ -1,0 +1,8 @@
+# News Templates  **********************************************
+tx_news.templateLayouts {
+    7 = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:Tabulator-Layout
+    8 = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:Science-List
+	9 = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:agww	
+	10 = LLL:EXT:hda/Resources/Private/Language/locallang_backend.xlf:Monitor	
+}
+
