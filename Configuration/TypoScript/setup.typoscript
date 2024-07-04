@@ -21,3 +21,14 @@ plugin.tx_news{
 		templateRootPaths.20 		 = EXT:hda/Resources/Private/Templates/News/Templates/
 	}
 }
+
+# jpfaq
+page.includeJSFooter.tx_jpfaq_jquery >
+page.includeCSS.tx_jpfaq_fontAwesome >
+page.includeCSS.tx_jpfaq >
+page.includeCSS.jpfaq = EXT:hda/Resources/Public/Sass/Extensions/_jpfaq.scss
+
+
+plugin.tx_jpfaq_faq.view.templateRootPath = EXT:hda/Resources/Private/Templates/Jpfaq/Templates/
+plugin.tx_jpfaq_faq.view.partialRootPath  = EXT:hda/Resources/Private/Templates/Jpfaq/Partials/
+plugin.tx_jpfaq_faq.view.layoutRootPath   = EXT:hda/Resources/Private/Templates/Jpfaq/Layouts/
