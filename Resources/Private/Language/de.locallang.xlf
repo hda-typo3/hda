@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">	   
+	<file source-language="en" datatype="plaintext" original="messages" product-name="hda">
+		<header/>
+		<body>
+		
+			/*  ------------------------- */
+		    <trans-unit id="editor">
+			     <source>Editor</source>
+			     <target state="translated">Redakteur/-in</target>
+		    </trans-unit>
+		    <trans-unit id="editor_substitute">
+			     <source>Subeditor</source>
+			     <target state="translated">Co-Redaktion</target>
+		    </trans-unit>
+		    <trans-unit id="palette">
+			     <source>Editors</source>
+			     <target state="translated">Redaktion</target>
+		    </trans-unit>	
+		    <trans-unit id="title">
+			     <source>Title</source>
+			     <target state="translated">mit Titel</target>
+		    </trans-unit>
+		    <trans-unit id="change">
+			     <source>Last change</source>
+			     <target state="translated">Letzte 	&#196;nderung</target>
+		    </trans-unit>    
+		    <trans-unit id="pid">
+			     <source>Pid</source>
+			     <target state="translated">von Seite</target>    
+		    </trans-unit>   
+		    <trans-unit id="i">
+			     <source>i</source>
+			     <target state="translated">i</target>   
+		    </trans-unit>    
+		    
+		</body>
+		
+	</file>
+</xliff>

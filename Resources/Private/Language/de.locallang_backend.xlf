@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2014-09-22T11:44:12Z" product-name="hda">
+ 	<header/>
+		<body>
+		
+			/* -- BACKENDLAYOUTS ------------------------- */
+		    
+		    <trans-unit id="colpos0">
+			     <source>Content</source>
+			     <target state="translated">Inhaltsbereich</target>
+		    </trans-unit>
+		    <trans-unit id="colpos1">
+			     <source>Left column</source>
+			     <target state="translated">Linke Spalte</target>
+		    </trans-unit>
+		    <trans-unit id="colpos2">
+			     <source>Right column</source>
+			     <target state="translated">Rechte Spalte</target>
+		    </trans-unit>
+		    <trans-unit id="colpos3">
+			     <source>Media</source>
+			     <target state="translated">Media/Kopfbereich</target>
+		    </trans-unit>
+
+
+			<trans-unit id="newsHeader">
+			     <source>Link to the Newslist</source>
+			     <target state="translated">Überschrift-Rahmen für Nachrichtenseite auf Startseitenlayouts</target>
+		    </trans-unit> 	
+			<trans-unit id="eventHeader">
+			     <source>Link to the Eventlist</source>
+			     <target state="translated">Überschrift-Rahmen für Event-Seite auf Startseitenlayouts</target>
+		    </trans-unit> 			   
+		    
+            
+		    /* Layouts */  
+			<trans-unit id="MonitorLayout">
+			     <source>Layout for a monitor</source>
+			     <target state="translated">Monitor-Layout</target>
+		    </trans-unit>
+			<trans-unit id="FbStartLayout">
+			     <source>Layout for the FB-startpage</source>
+			     <target state="translated">Fachbereich-Startseite</target>
+		    </trans-unit>
+		    		    	
+			<trans-unit id="RightNavigationInMediaTopLayout">
+			     <source>Layout for a right Navigation and small media. Content first.</source>
+			     <target state="translated">Layout mit Navigation rechts. Content first</target>
+		    </trans-unit>
+		    
+			<trans-unit id="LeftNavigationInMediaLayout">
+			     <source>Layout for a left navigation and media media. </source>
+			     <target state="translated">Layout mit Navigation links und Media.</target>
+		    </trans-unit>
+		    		    
+		    
+		    
+ 			<trans-unit id="contact">
+			     <source>Contact</source>
+			     <target state="translated">Kontakt</target>    
+		    </trans-unit>  	
+ 			<trans-unit id="whiteHead">
+			     <source>White header</source>
+			     <target state="translated">Mit hellabgesetzter Überschrift</target>        
+		    </trans-unit>  	    
+ 			<trans-unit id="line">
+ 			     <source>With line below</source>
+			     <target state="translated">Mit Linie unterhalb</target>
+		    </trans-unit>  	    
+		    	    
+ 			<trans-unit id="note">
+			     <source>A note</source>
+			     <target state="translated">Hinweis/Anmerkung</target>   
+		    </trans-unit>  	    
+ 			<trans-unit id="attention">
+			     <source>important notice</source>
+			     <target state="translated">Wichtige Information</target>   
+		    </trans-unit>  	        	    
+
+		    
+		    
+		</body>
+	</file>
+</xliff>

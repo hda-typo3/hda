@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-22T11:44:12Z" product-name="hda_navigation">
+		<header/>
+		<body>
+		       	    
+		    /* header */   
+			<trans-unit id="hdas">
+			     <source>hda - symbols in the toparea</source>
+		    </trans-unit>		    	    
+	        
+			<trans-unit id="alumni">
+			     <source>ID of the Alumnipage.</source>
+		    </trans-unit>	   		    
+			<trans-unit id="sd">
+			     <source>ID of the servicedesk (SD) page.</source>
+			      <target state="translated">Servicedesk: ID der Seite mit dem Service-Desk iFrame</target>
+		    </trans-unit>
+			<trans-unit id="hda">
+			     <source>If it's true, shows the hda-icon for linking to the h-da.de</source>
+		   </trans-unit>	
+			<trans-unit id="intern">
+			     <source>ID of the internal services page</source>
+			      <target state="translated">Intern: ID der Seite Intern.</target>
+		   </trans-unit>	
+			<trans-unit id="serif">
+			     <source>The serif-font</source>
+		   </trans-unit>	   
+			<trans-unit id="themes">
+			     <source>Stylesheet sets</source>
+		   </trans-unit>
+         
+         
+         	/* -- Color ------------------------- */
+			<trans-unit id="topBorderColor">
+			     <source>Top-area - border color (default transparent)</source>
+              	 <target state="translated">Top-Border Farbe (Vorgabe transparent)</target>
+		    </trans-unit>
+			<trans-unit id="topBorderHeight">
+			     <source>Top-area - border height (default 8)</source>
+                 <target state="translated">Indexed_search Scss-Datei einbinden (empty = inaktiv) </target>
+		    </trans-unit>
+		    <trans-unit id="footer2BGColor">
+			     <source>Icons background color (Icon Area)</source>
+		    </trans-unit>
+		    <trans-unit id="footer2liBGColor">
+			     <source>Li-elements backgroundcolor</source>
+		    </trans-unit>  	 
+		    		    
+		    
+			<trans-unit id="topBorderHeight">
+			     <source>Top-area - border height (default 0)</source>
+		    </trans-unit>
+		    
+		    <trans-unit id="bg2">
+			     <source>Links and wraps in the Basicfooterline</source>
+		    </trans-unit>
+		    
+		    /* -- ICONS ------------------------ */		    		    
+		    <trans-unit id="iconwidth">
+			     <source>Width of the icons in the footerarea</source>
+		    </trans-unit> 
+		    <trans-unit id="iconfolder">
+			     <source>Location of the icons. Must part of the filesystem (fileadmin), because FAL is needed. Files need meta information "alt" and "source".</source>
+		    </trans-unit> 
+		    <trans-unit id="iconsfooter">
+			     <source>Activate the icons in the footer</source>
+		    </trans-unit>  	
+		    <trans-unit id="iconsheader">
+			     <source>Activate the icons in the header</source>
+		    </trans-unit>  	 
+
+		    /* -- SCSS ------------------------ */		
+		    
+            <trans-unit id="scssindexedsearch">
+                 <source>Including the indexed_search-scss (default empty, not activ)</source>
+                 <target state="translated">Indexed_search Scss-Datei einbinden (empty = inaktiv) </target>
+            </trans-unit>            
+            <trans-unit id="scsspowermail">
+                 <source>Including the scsss for the powermail</source>
+                 <target state="translated">Powermailmodifierung (empty = inaktiv)</target>
+            </trans-unit>       
+            <trans-unit id="scssjpfaq">
+                 <source>Including the jpfaq-scss (default empty, not activ)</source>
+                 <target state="translated">Jpfaq Scss-Datei einbinden (empty = inaktiv) </target>
+          </trans-unit>
+		    
+		</body>
+	</file>
+</xliff>

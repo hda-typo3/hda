@@ -1,0 +1,47 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	  xmlns:n="http://typo3.org/ns/GeorgRinger/News/ViewHelpers"
+	  data-namespace-typo3-fluid="true">
+<!--
+    =====================
+        Partials/List/Tab.html
+-->
+    <f:if condition="{newsItem}">
+        <f:then>
+            <h3 class="mb-3 w-100">{newsItem.title}</h3>
+            <f:if condition="{newsItem.contentElements}">
+                <!-- content elements -->
+                <div id="c{newsItem.uid}" class="t3up_tabulator tabssstyle-1 mb-5">
+                	
+					<ul class="nav nav-tabs p-0" role="tablist" id="tabs-{newsItem.uid}">
+				       <f:for each="{newsItem.contentElements}" as="content" iteration="iterator">
+				          <li class="nav-item"  role="presentation">
+				          	 <a class="nav-link{f:if(condition: iterator.isFirst, then: ' active')}"
+		                        id="nav-c{content.uid}-tab" 
+		                        data-bs-toggle="tab"
+		                        data-toggle="tab" 
+		                        href="#nav-c{content.uid}"
+		                        role="tab" 
+		                        type="button"
+		                        aria-controls="nav-c{content.uid}"
+		                        aria-selected="false">
+				            		{f:if(condition: content.header, then: '{content.header}',  else: 'Tab{iterator.cycle}')}
+				             </a>
+				          </li>
+				       </f:for>
+					</ul>
+			
+		     		<div class="tab-content">
+				     	<f:for each="{newsItem.contentElements}" as="content" iteration="iterator">
+					     	 <div class="tab-pane fade {f:if(condition: iterator.isFirst, then: 'show active', else:'show')}"
+					     	 	id="nav-c{content.uid}" 
+					     	 	role="tabpanel" 
+					     	 	aria-labelledby="nav-c{content.uid}-tab">
+		                           <f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{content.uid}</f:cObject>                                          
+					         </div>
+				       	</f:for>
+				     </div>         
+                </div>  
+            </f:if>
+         </f:then>
+    </f:if>
+</html>

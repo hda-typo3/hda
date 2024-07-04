@@ -1,0 +1,27 @@
+ <html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:f="http://typo3.org/ns/fluid/ViewHelpers" >
+    <f:layout name="Standard" />
+    <f:section name="Content">
+        <f:render partial="Header.html" section="list" arguments="{_all}" />
+        <main id="content" role="main" class="startLayout">
+	        <h1 class="notvissible">{title}</h1>  
+        	<div class="overlay"></div> 
+           <div class="media"><f:format.raw>{media}</f:format.raw></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 left"><f:format.raw>{left}</f:format.raw></div>
+                    <div class="col-12 col-lg-6 content">
+                    	<!--TYPO3SEARCH_begin-->
+                    		<f:format.raw>{content}</f:format.raw>
+                    	<!--TYPO3SEARCH_end-->
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 right">
+		                <!--TYPO3SEARCH_begin-->  	
+							<f:format.raw>{right}</f:format.raw>
+						<!--TYPO3SEARCH_end--> 
+						</div>
+                </div>
+            </div>
+        </main>    
+     </f:section>
+</html>

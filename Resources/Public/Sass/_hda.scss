@@ -1,0 +1,182 @@
+/* Header */
+header {											border-bottom: 1px solid (rgba($baseTextColor, .2));
+	.toparea										{border-top: $topBorderHeight solid $baseColor; border-bottom: 1px solid (rgba($baseTextColor,.2));}	 
+	.top{
+		a.sd:before									{content:'\f007'; font-family: $symbol;}	
+	}
+}
+		
+/* Main ************************************************/
+main {
+
+.frame-type-table.frame-white						{padding: 0; background: none}
+.frame-type-table.frame-white table					{background: #fff}
+
+
+.frame-line {										transition: all ease 0.3s; border-bottom: 1px solid rgba($baseTextColor,5); margin-bottom: $v3;}
+
+	.frame-contact {								transition: all ease 0.3s; background-color: rgba(255, 255, 255, 1);
+	> h2:first-of-type,
+	> h3:first-of-type,
+	> h4:first-of-type								{padding: $v2 $v3;	text-transform: uppercase; letter-spacing: .01;margin: 0;color: #fff!important;	background: rgba($baseTextColor,.85); font-weight: 600; }	
+	
+	> h2:first-of-type a,
+	> h3:first-of-type a,
+	> h4:first-of-type a							{color: #fff!important;}
+	
+	> div											{padding: $v3; }
+	
+	div div											{padding: 0!important; background: none !important; color: inherit !important;}
+	}
+
+}
+
+/* Footer */
+footer {
+	.footer1										{padding-top: $v6; padding-bottom: $v6;}
+
+/* Footer - Icon Area */
+	.iconall										{background: $footer2BgColor; padding-top: 10px; padding-bottom: 10px;}
+	.iconall li										{padding-left: $v2; padding-right: $v2; background-color: $footer2liBgColor;}
+	.iconall li:first-of-type						{padding-left: 0;}
+	.iconall li:last-of-type						{padding-right: 0;}
+	.iconall img									{filter: grayscale(1); opacity: .7; transition: all ease .3s; max-width: 100%; height: auto;}
+	.iconall img:hover								{filter: grayscale(0); opacity: 1; max-width: 70%;}
+	.monitorFooter									{background: rgba($baseTextColor, 0.6); color: #fff; font-size: 115%; padding:$v4; text-align: left; }
+	.monitorFootera									{color: #fff;}
+	.monitorFootera::before							{color: #fff;}
+
+.monitoraddress.ce-bodytext							{display: flex; justify-content: space-around; width: auto; }
+
+}
+		
+/* Layouts ---------- -------------------------------- */
+
+main.monitor {
+	.content										{min-height: 60vH}
+}
+
+ 
+/* Footer */
+footer {
+	.monitorFootera									{color: #fff;}
+	.monitorFootera::before							{color: #fff;}
+
+	.monitoraddress.ce-bodytext						{display: flex; justify-content: space-around; width: auto; }
+}
+
+main.startLayout {
+	> .container									{padding-top: $v4;}
+	> .container > .row > .content					{order: 1; }
+	> .container > .row > .left {					order: 2;
+		h2,
+		h3											{font-weight: 600;text-transform: uppercase;}
+	}
+	> .container > .row > .right {					order: 3; 
+		h2,
+		h3											{font-weight: 600;text-transform: uppercase;}	
+	}
+}
+
+/* Mediaqueries ****************************************/
+ 
+main.startLayout {
+	 > .container > .row > .content					{order: 2;}
+	 > .container > .row > .left					{order: 1;}
+	 > .container > .row > .right					{order: 3;}	 
+}
+
+	/* Footer */
+footer {
+	.iconall										{padding-top: $v4; padding-bottom: $v4;}
+	.iconall img									{max-width: 100%;}
+}
+
+}
+
+/* COLORS */
+
+.page.orange{
+	.toparea										{border-top-color: $orange;}
+	footer											{border-top-color: $orange;} 
+ }
+.page.blue{
+	.toparea										{border-top-color: $blue;}
+	footer											{border-top-color: $blue;} 
+}				
+.page.green{
+	.toparea										{border-top-color: $green;}
+	footer											{border-top-color: $green;}
+}
+.page.grey{
+	.toparea										{border-top-color: $grey;}
+	footer											{border-top-color: $grey;}
+}
+.page.red{
+	.toparea										{border-top-color: $red;}
+	footer											{border-top-color: $red;}	
+}
+.page.turquoise{
+	.toparea										{border-top-color: $turquoise;}
+	footer											{border-top-color: $turquoise;} 
+}
+.page.violett{
+	.toparea										{border-top-color: $violett;}
+	footer											{border-top-color: $violett;}	
+}
+.page.yellow{
+	.toparea										{border-top-color: $yellow;}
+	footer											{border-top-color: $yellow;}	
+}
+.page.darkblue{
+	.toparea										{border-top-color: $darkblue;}
+	footer											{border-top-color: $darkblue;}	
+}
+
+/* Extensions */
+
+.powermail_fieldwrap_type_submit.layout1			{display: -webkit-inline-box; width: 4vw;}
+
+
+
+/* Specials ********************************/
+
+.pageAllInfo										{display: none;}
+@media screen and (min-width: 768px){
+	.pageAllInfo{									position: absolute; top: 0; left: 0; z-index: 1234;display: block;
+		a											{color: #151515;}
+		label										{font-weight: bold; min-width: 5vw; }
+		> span										{width: $v5; height: $v5; cursor: pointer; z-index: 1099; background: #633; color: #fff; font-size: $v4; font-weight: bold; text-align: center; padding: $v1 $v2; display: block;margin-right: auto;}
+		ul 											{display: none; position: relative; top: auto; left: 0; min-width: 20rem; box-shadow: $shadow; }
+	
+		.pageinfo > span							{border-bottom: 1px solid #efefef;}	
+		.pageinfo > span:last-of-type				{border-bottom: 0;}	
+		
+		ul li.item1									{margin-left: $v3; margin-top: $v3;}
+		
+		ul li										{opacity: 0; position: relative; background: #fff; padding: $v3; width: 100%; height: 12rem; border-bottom: 2px solid #efefef; position: absolute; top: 0; left: 0;box-shadow: $shadow; }		
+		ul li:last-of-type							{border-bottom: 0;}	
+		ul li.show									{opacity: 1;}
+		
+		ul li.item1									{margin-left: $v3; margin-top: $v3;}	
+		
+		&:hover ul									{display: block; }	
+	}
+}
+
+
+
+/* Opencast ************************************/
+.embed-responsive 						{position: relative;overflow: hidden;width: 100%;padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.embed-responsive-item 					{position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%;height: 100%;}
+
+
+
+
+
+
+
+
+
