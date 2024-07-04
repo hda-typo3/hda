@@ -1,0 +1,20 @@
+mod.linkvalidator {
+        searchFields {
+                pages = url,canonical_link
+                tt_content = bodytext,header_link,records
+        }
+        linktypes = db,file,external
+        checkhidden = 0
+        mail {
+                fromname = TYPO3 LinkValidator
+                fromemail = webdienste@h-da.de
+                replytoname =
+                replytoemail =
+                subject = h_da - LinkValidator report
+        }
+        external {
+                # httpAgentUrl = https://example.com/info.html
+                httpAgentEmail = webdienste@h-da.de
+        }
+}
+
