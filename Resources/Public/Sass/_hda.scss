@@ -33,48 +33,48 @@ main {
 
 /* Footer */
 footer {
-	.footer1										{padding-top: $v6; padding-bottom: $v6;}
+	.footer1								{padding-top: $v6; padding-bottom: $v6;}
 
 /* Footer - Icon Area */
-	.iconall										{background: $footer2BgColor; padding-top: 10px; padding-bottom: 10px;}
-	.iconall li										{padding-left: $v2; padding-right: $v2; background-color: $footer2liBgColor;}
+	.iconall								{background: $footer2BgColor; padding-top: 10px; padding-bottom: 10px;}
+	.iconall li								{padding-left: $v2; padding-right: $v2; background-color: $footer2liBgColor;}
 	.iconall li:first-of-type						{padding-left: 0;}
 	.iconall li:last-of-type						{padding-right: 0;}
-	.iconall img									{filter: grayscale(1); opacity: .7; transition: all ease .3s; max-width: 100%; height: auto;}
-	.iconall img:hover								{filter: grayscale(0); opacity: 1; max-width: 70%;}
-	.monitorFooter									{background: rgba($baseTextColor, 0.6); color: #fff; font-size: 115%; padding:$v4; text-align: left; }
-	.monitorFootera									{color: #fff;}
+	.iconall img								{filter: grayscale(1); opacity: .7; transition: all ease .3s; max-width: 100%; height: auto;}
+	.iconall img:hover							{filter: grayscale(0); opacity: 1; max-width: 70%;}
+	.monitorFooter								{background: rgba($baseTextColor, 0.6); color: #fff; font-size: 115%; padding:$v4; text-align: left; }
+	.monitorFootera								{color: #fff;}
 	.monitorFootera::before							{color: #fff;}
 
-.monitoraddress.ce-bodytext							{display: flex; justify-content: space-around; width: auto; }
+	.monitoraddress.ce-bodytext						{display: flex; justify-content: space-around; width: auto; }
 
 }
 		
 /* Layouts ---------- -------------------------------- */
 
 main.monitor {
-	.content										{min-height: 60vH}
+	.content								{min-height: 60vH}
 }
 
  
 /* Footer */
 footer {
-	.monitorFootera									{color: #fff;}
+	.monitorFootera								{color: #fff;}
 	.monitorFootera::before							{color: #fff;}
 
 	.monitoraddress.ce-bodytext						{display: flex; justify-content: space-around; width: auto; }
 }
 
 main.startLayout {
-	> .container									{padding-top: $v4;}
-	> .container > .row > .content					{order: 1; }
-	> .container > .row > .left {					order: 2;
+	> .container								{padding-top: $v4;}
+	> .container > .row > .content						{order: 1; }
+	> .container > .row > .left {						order: 2;
 		h2,
-		h3											{font-weight: 600;text-transform: uppercase;}
+		h3								{font-weight: 600;text-transform: uppercase;}
 	}
-	> .container > .row > .right {					order: 3; 
+	> .container > .row > .right {						order: 3; 
 		h2,
-		h3											{font-weight: 600;text-transform: uppercase;}	
+		h3								{font-weight: 600;text-transform: uppercase;}	
 	}
 }
 
