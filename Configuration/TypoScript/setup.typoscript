@@ -15,13 +15,6 @@ page{
 	}
 }				
 
-plugin.tx_news{
-	view{
-		partialRootPaths.20 		 = EXT:hda/Resources/Private/Templates/News/Partials/
-		templateRootPaths.20 		 = EXT:hda/Resources/Private/Templates/News/Templates/
-	}
-}
-
 # jpfaq
 page.includeJSFooter.tx_jpfaq_jquery >
 page.includeCSS.tx_jpfaq_fontAwesome >
