@@ -6,16 +6,10 @@ page {
         footer2liBgColor		= #fafafa
     }    
 
-    fonts{
-        font                          = Open Sans       
-    }
-    	
     footer{  
         copyright                   = h_da.de
         # cat = t3up: footer/bg2//; type = int; label = PID with Alumni 
         alumni                      =
-        # cat = t3up: footer///; type = int; label = PID with the textmedia-element, should be in the folder with footer etc.        
-        monitoraddress              = 
     }
        
     icons {
