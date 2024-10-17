@@ -4,9 +4,14 @@ page{
 	10.templateRootPaths.20 						    = EXT:hda/Resources/Private/Templates/Fluidtemplates/Templates/
 	10.partialRootPaths.20 						        = EXT:hda/Resources/Private/Templates/Fluidtemplates/Partials/
 	
-		## Scss ##
+	## Scss ##
 	includeCSS{
 	    hda                          	        = EXT:hda/Resources/Public/Sass/Content/_hda.scss  
 	    hda.if.isTrue                         = {$page.scss.hda}   
 	}
+}
+
+plugin.tx_wsscss.variables {
+	footer2BgColor = {$page.color.footer2BgColor}
+	footer2liBgColor = {$page.color.footer2liBgColor}
 }
