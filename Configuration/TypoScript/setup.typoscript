@@ -1,13 +1,12 @@
 page{
 	## Fluidtemplates ##
-	10.layoutRootPaths.20 						        = EXT:hda/Resources/Private/Templates/Fluidtemplates/Layouts/	
-	10.templateRootPaths.20 						    = EXT:hda/Resources/Private/Templates/Fluidtemplates/Templates/
-	10.partialRootPaths.20 						        = EXT:hda/Resources/Private/Templates/Fluidtemplates/Partials/
+	10.layoutRootPaths.40			= EXT:hda/Resources/Private/Templates/Fluidtemplates/Layouts/	
+	10.partialRootPaths.40			= EXT:hda/Resources/Private/Templates/Fluidtemplates/Partials/
 	
 	## Scss ##
 	includeCSS{
-	    hda                          	    = EXT:hda/Resources/Public/Sass/_hda.scss  
-	    hda.if.isTrue                         = {$page.scss.hda}   
+		hda				= EXT:hda/Resources/Public/Sass/_hda.scss  
+		hda.if.isTrue			= {$page.scss.hda}   
 	}
 }
 
