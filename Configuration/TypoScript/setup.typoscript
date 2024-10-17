@@ -6,7 +6,7 @@ page{
 	
 	## Scss ##
 	includeCSS{
-	    hda                          	        = EXT:hda/Resources/Public/Sass/Content/_hda.scss  
+	    hda                          	    = EXT:hda/Resources/Public/Sass/_hda.scss  
 	    hda.if.isTrue                         = {$page.scss.hda}   
 	}
 }
