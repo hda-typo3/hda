@@ -1,9 +1,9 @@
 
   /* Footer - Icon Area */
   .iconall                                              {background: $footer2BgColor; padding-top: 10px; padding-bottom: 10px;}
-  .iconall li                                           {padding-left: 7.5px; padding-right: 7.5px;background-color: $footer2liBgColor;}
-  .iconall li:first-of-type                             {padding-left: 0px;}
-  .iconall li:last-of-type                              {padding-right: 0px;}
+  .iconall li                                           {padding-left: $v2; padding-right:  $v2;background-color: $footer2liBgColor;}
+  .iconall li:first-of-type                             {padding-left: 0;}
+  .iconall li:last-of-type                              {padding-right: 0;}
   .iconall img                                          {filter: grayscale(1); opacity: .7; transition: all ease .3s; max-width: 100%; height: auto;}
   .iconall img:hover                                    {filter: grayscale(0); opacity: 1; max-width: 70%;}
 }
