@@ -22,26 +22,7 @@
 			<trans-unit id="scsshda">
 			     <source>Include the hda-scss</source>
 		   </trans-unit>	
-		   		   
-         	/* -- Color ------------------------- */
-         	
-			<trans-unit id="topBorderColor">
-			     <source>Top-area - border color (default transparent)</source>
-		    </trans-unit>
-			<trans-unit id="topBorderHeight">
-			     <source>Top-area - border height (default 8)</source>
-		    </trans-unit>
-		    
-		    <trans-unit id="footer2BGColor">
-			     <source>Icons background color (Icon Area)</source>
-		    </trans-unit>
-		    <trans-unit id="footer2liBGColor">
-			     <source>Li-elements backgroundcolor</source>
-		    </trans-unit>  	  
-		    <trans-unit id="bg2">
-			     <source>Links and wraps in the Basicfooterline</source>
-		    </trans-unit>
-		    
+		   		   		    
 		    /* -- ICONS ------------------------ */		    		    
 		    <trans-unit id="iconwidth">
 			     <source>Width of the icons in the footerarea</source>
