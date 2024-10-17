@@ -1,11 +1,10 @@
-
-##############
-### PAGE ###
-##############
-
-
-
 page {
+    color {
+        # cat = t3up: color/footer/05; type = color; label = LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:footer2BGColor 
+        footer2BgColor			= #cccccc
+        # cat = t3up: color/footer/06; type = color; label = LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:footer2liBGColor 
+        footer2liBgColor		= #fafafa
+    }    
 
     fonts{
         font                          = Open Sans       
