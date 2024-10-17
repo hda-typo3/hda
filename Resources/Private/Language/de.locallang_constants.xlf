@@ -30,31 +30,6 @@
 			     <source>Stylesheet sets</source>
 		   </trans-unit>
          
-         
-         	/* -- Color ------------------------- */
-			<trans-unit id="topBorderColor">
-			     <source>Top-area - border color (default transparent)</source>
-              	 <target state="translated">Top-Border Farbe (Vorgabe transparent)</target>
-		    </trans-unit>
-			<trans-unit id="topBorderHeight">
-			     <source>Top-area - border height (default 8)</source>
-                 <target state="translated">Indexed_search Scss-Datei einbinden (empty = inaktiv) </target>
-		    </trans-unit>
-		    <trans-unit id="footer2BGColor">
-			     <source>Icons background color (Icon Area)</source>
-		    </trans-unit>
-		    <trans-unit id="footer2liBGColor">
-			     <source>Li-elements backgroundcolor</source>
-		    </trans-unit>  	 
-		    		    
-		    
-			<trans-unit id="topBorderHeight">
-			     <source>Top-area - border height (default 0)</source>
-		    </trans-unit>
-		    
-		    <trans-unit id="bg2">
-			     <source>Links and wraps in the Basicfooterline</source>
-		    </trans-unit>
 		    
 		    /* -- ICONS ------------------------ */		    		    
 		    <trans-unit id="iconwidth">
@@ -70,20 +45,6 @@
 			     <source>Activate the icons in the header</source>
 		    </trans-unit>  	 
 
-		    /* -- SCSS ------------------------ */		
-		    
-            <trans-unit id="scssindexedsearch">
-                 <source>Including the indexed_search-scss (default empty, not activ)</source>
-                 <target state="translated">Indexed_search Scss-Datei einbinden (empty = inaktiv) </target>
-            </trans-unit>            
-            <trans-unit id="scsspowermail">
-                 <source>Including the scsss for the powermail</source>
-                 <target state="translated">Powermailmodifierung (empty = inaktiv)</target>
-            </trans-unit>       
-            <trans-unit id="scssjpfaq">
-                 <source>Including the jpfaq-scss (default empty, not activ)</source>
-                 <target state="translated">Jpfaq Scss-Datei einbinden (empty = inaktiv) </target>
-          </trans-unit>
 		    
 		</body>
 	</file>
