@@ -1,9 +1,7 @@
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:hda/Configuration/TypoScript/Header/" extensions="typoscript">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:hda/Configuration/TypoScript/Content/" extensions="typoscript">
 
 page{
 	## Fluidtemplates ##
-	10.layoutRootPaths.40			= EXT:hda/Resources/Private/Templates/Fluidtemplates/Layouts/	
 	10.partialRootPaths.40			= EXT:hda/Resources/Private/Templates/Fluidtemplates/Partials/
 	
 	## Scss ##
