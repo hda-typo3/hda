@@ -26,12 +26,6 @@ page {
         # cat =t3up: scss/extensions/113;  type =options[,active]; label = LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:scsshda
         hda                        = active 
   }           
-    top {
-        # customsubcategory=hda=LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:hdas  
-        # cat = t3up: header/hda/01; type = int+;  label =  LLL:EXT:hda/Resources/Private/Language/locallang_constants.xlf:sd
-        sd =	lib.header.sd
-	}	
-	
 }
 
 
