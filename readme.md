@@ -1,3 +1,1 @@
-17.10.2024 - Löschen der Templates und Layouts
-17.10.2024 - um die Editoranzeigefunktion nutzen zu können muss in der localconfig.php 
-             'addRootLineFields' => 'editor,editor_substitute' eingetragen werden
+17.02.2025 - TYPO3 12 - Version
