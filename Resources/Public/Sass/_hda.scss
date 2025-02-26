@@ -1,7 +1,7 @@
 footer {
   /* Footer - Icon Area */
-  .iconall                                              {background: $footer2BgColor; padding-top: 10px; padding-bottom: 10px;}
-  .iconall li                                           {padding-left: $v2; padding-right:  $v2;background-color: $footer2liBgColor;}
+  .iconall                                              {background: $footer2BgColor; padding-top: $v066; padding-bottom: $v066;}
+  .iconall li                                           {padding-left: $v050; padding-right:  $v050; background-color: $footer2liBgColor;}
   .iconall li:first-of-type                             {padding-left: 0;}
   .iconall li:last-of-type                              {padding-right: 0;}
   .iconall img                                          {filter: grayscale(1); opacity: .7; transition: all ease .3s; max-width: 100%; height: auto;}
@@ -13,18 +13,7 @@ footer {
 @media screen and (min-width: 992px){
     /* Footer */
   footer {
-    .iconall                                           {padding-top: 1rem; padding-bottom: 1rem;}
+    .iconall                                           {padding-top: $v1; padding-bottom: $v1;}
     .iconall img                                       {max-width: 100%;}
   }
-}
-
-/* Specials ************************************************************************************************************************************************************************************************************************/
-
-.pageAllInfo{						position: absolute; top: 0; left: 0; z-index: 1234;
-	label                      			 {font-weight: bold; min-width: 8rem; }
-	> span                     			{cursor: pointer; z-index: 1099; background: $darkgrey; color: $white; font-weight: bold; text-align: center; padding: $v1 $v2; width: $v6; height: $v6; margin-right: auto;}
-	.pageinfo 					{display: none}
-	.pageinfo > span				{border-bottom: 1px solid $lightgrey;}	
-	.pageinfo > span:last-of-type			{border-bottom: 0;}	
-	&:hover ul li:last-of-type  			{display: block; position: absolute; top: auto; left: 0; background: $white; padding: $v3; min-width: 18rem; box-shadow: $shadow }
 }
