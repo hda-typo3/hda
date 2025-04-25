@@ -1,1 +1,1 @@
-17.02.2025 - TYPO3 12 - Version
+17.04.2025 - TYPO3 13 - Version
