@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = array(
     'author_company' => '',
     'constraints' => array(
         'depends' => array(
-            'typo3' => '13.4 -',
+            'typo3' => '12.4.0 - 13.4.99',
         ),
         'conflicts' => array(
             'fluidpages' => '*',
