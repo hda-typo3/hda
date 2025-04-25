@@ -8,7 +8,7 @@ $EM_CONF[$_EXTKEY] = array(
     'title' => 'h_da - Installation',
     'description' => '',
     'category' => 'templates',
-    'version' => '12.0.01',
+    'version' => '13.0.01',
     'state' => 'alpha',
     'clearcacheonload' => true,
     'author' => 'Michael Lang',
@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = array(
     'author_company' => '',
     'constraints' => array(
         'depends' => array(
-            'typo3' => '12.4 -',
+            'typo3' => '13.4 -',
         ),
         'conflicts' => array(
             'fluidpages' => '*',
